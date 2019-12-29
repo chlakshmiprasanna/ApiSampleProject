@@ -1,0 +1,13 @@
+PraticeRest\DeleteRequest.class
+com\api\genericLib\BaseClass.class
+com\api\genericLib\APIConfig.class
+com\api\TestScripts\PostRequestTest.class
+PraticeRest\FetchData.class
+PraticeRest\GetRequest.class
+ArjitRest\ArjitRest\AppTest.class
+com\api\TestScripts\FetchAllEmployees.class
+PraticeRest\PostRequest.class
+PraticeRest\CheckParameters.class
+PraticeRest\FetchExactData.class
+com\api\TestScripts\GetRequestTest.class
+PraticeRest\Authentication.class
