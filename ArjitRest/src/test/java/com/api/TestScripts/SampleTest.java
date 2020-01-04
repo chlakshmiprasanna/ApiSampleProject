@@ -18,11 +18,11 @@ public class SampleTest extends BaseClass{
 		{
 logger = extent.createTest("Post Created" , "Test case pass");
 		}
-		
 		resp.then().log().all();
 		System.out.println("I am changing it.");
 		System.out.println("Test Case Pass");	
 		Assert.fail("I am failing this test case");
+		System.out.println("Pas");
 	}
 	
 }
