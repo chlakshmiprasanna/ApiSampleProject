@@ -1,5 +1,6 @@
 package com.api.TestScripts;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.api.genericLib.BaseClass;
@@ -19,8 +20,8 @@ logger = extent.createTest("Post Created" , "Test case pass");
 		}
 		resp.then().log().all();
 		System.out.println("I am changing it.");
-		System.out.println("Test Case Pass");
-
+		System.out.println("Test Case Pass");	
+		Assert.fail("I am failing this test case");
 	}
 	
 }
