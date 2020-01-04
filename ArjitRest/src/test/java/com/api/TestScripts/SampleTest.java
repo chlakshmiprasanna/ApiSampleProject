@@ -18,6 +18,7 @@ public class SampleTest extends BaseClass{
 logger = extent.createTest("Post Created" , "Test case pass");
 		}
 		resp.then().log().all();
+		System.out.println("I am changing it.");
 	}
 	
 }
