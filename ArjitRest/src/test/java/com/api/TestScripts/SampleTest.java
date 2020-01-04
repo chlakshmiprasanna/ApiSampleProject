@@ -23,6 +23,7 @@ logger = extent.createTest("Post Created" , "Test case pass");
 		System.out.println("Test Case Pass");	
 		Assert.fail("I am failing this test case");
 		System.out.println("Pas");
+		System.out.println("Pass by Sandeep");
 	}
 	
 }
