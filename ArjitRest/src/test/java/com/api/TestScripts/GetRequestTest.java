@@ -21,7 +21,7 @@ public class GetRequestTest extends BaseClass{
 		if(resp != null)
 		{
 			logger = extent.createTest
-			("Fetch country" , "Test case pass");
+			("Fetch country Test" , "Test case pass");
 		}	
 		resp.then().log().all();
 	}
